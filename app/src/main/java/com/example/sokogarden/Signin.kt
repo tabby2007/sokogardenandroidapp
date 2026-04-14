@@ -53,6 +53,9 @@ class Signin : AppCompatActivity() {
 //            By use of the function post_login inside of the helper class, post your data
             helper.post_login(api, data)
 
+            email.text.clear()
+            password.text.clear()
+
         }
     }
 }
