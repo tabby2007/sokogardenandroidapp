@@ -38,7 +38,7 @@ class Signin : AppCompatActivity() {
         signinButton.setOnClickListener {
 
 //            specify the API endpoint
-            val api = "https://kbenkamotho.alwaysdata.net/api/signin"
+            val api = "https://tabbyondego.alwaysdata.net/api/signin"
 
 //            create a requestparams that will enable you to hold the data in form of a bundle/package
             val data = RequestParams()
@@ -50,7 +50,7 @@ class Signin : AppCompatActivity() {
 //            import the api helper
             val helper = ApiHelper(applicationContext)
 
-//            By use of the function post_login inside of the helper class, post your data
+//            By use of the function post_login inside the helper class, post your data
             helper.post_login(api, data)
 
             email.text.clear()

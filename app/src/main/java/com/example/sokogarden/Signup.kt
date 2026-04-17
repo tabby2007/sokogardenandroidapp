@@ -39,7 +39,7 @@ class Signup : AppCompatActivity() {
 //        Onclick of the signup button, we want to register a person
         signupButton.setOnClickListener {
 //            specify the API endpoint
-            val api = "https://kbenkamotho.alwaysdata.net/api/signup"
+            val api = "https://tabbyondego.alwaysdata.net/api/signup"
 
 //            create a requestparams - it is where we are going to hold all the data
             val data = RequestParams()
@@ -53,14 +53,13 @@ class Signup : AppCompatActivity() {
 //            import the API helper
             val helper = ApiHelper(applicationContext)
 
-//            Inside the helper class, access the function post
+            //            Inside the helper class, access the function post
             helper.post(api,data)
 
             email.text.clear()
             username.text.clear()
             password.text.clear()
             phone.text.clear()
-
-        }
     }
 }
+    }

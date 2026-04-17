@@ -225,6 +225,8 @@ fun loadProducts(url: String, recyclerView: RecyclerView, progressBar: ProgressB
             })
     }//END DELETE
 
+    fun postSignup(api: String, data: com.loopj.android.http.RequestParams, function: Any) {}
+
     //Interface to used by the GET function above.
     //All APis responses either JSON array [], JSON Object {}, String ""
     //Are brought here
