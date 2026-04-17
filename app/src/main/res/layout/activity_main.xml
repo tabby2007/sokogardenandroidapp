@@ -34,8 +34,9 @@
             android:text="👤SIGNUP"
             android:textSize="25sp"
             android:padding="10dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="4dp"
             android:layout_marginTop="8dp"
+            android:layout_weight="1"
             android:textColor="#1B1D2F"
             android:backgroundTint="#EBE9F6"
             android:id="@+id/signupBtn"/>
@@ -46,11 +47,25 @@
             android:text="👮🏽SIGNIN"
             android:textSize="25sp"
             android:padding="10dp"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
             android:layout_marginTop="8dp"
             android:textColor="#1B1D2F"
             android:backgroundTint="#EBE9F6"
             android:id="@+id/signinBtn"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 📜 About"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:textColor="#1B1D2F"
+            android:backgroundTint="#EBE9F6"
+            android:id="@+id/aboutbtn"/>
 
 
         <TextView
@@ -84,6 +99,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/progressbar"/>
+
+
+
 
 <!--    Below is our recycler bin-->
     <androidx.recyclerview.widget.RecyclerView
